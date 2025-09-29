@@ -5,14 +5,16 @@ body {
     margin: 0px;
 
     /* Couleur d'arrière-plan: #1d3557 */
-    
-    
+    background-color: #1d3557;
+
     /* Couleur du texte: #272727 */
-    
+    color: #272727;
 }
 
-/* ## À titre d'information (ne pas faire) : Ce sélecteur veut dire: header ET main ET footer ## */
-header, main, footer {
+/* Ce sélecteur veut dire: header ET main ET footer */
+header,
+main,
+footer {
     width: 100%;
     background-color: #f1faee;
     padding: 14px;
@@ -30,7 +32,11 @@ Propriétés:
 
  ## Information : La marge automatique permet de centrer le contenu ##
 */
-
+.interface {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*
 Sélecteur: Titre principal
@@ -41,45 +47,58 @@ Propriétés:
  - Texte aligné au centre
  - Couleur d'arrière-plan: #a8dadc;
 */
-
+h1 {
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #a8dadc;
+}
 
 /*
 Sélecteur: Titre secondaire
 Propriétés:
  - Bordure du bas: 2px dotted #a8dadc
 */
-
+h2 {
+    border-bottom: 2px dotted #a8dadc;
+}
 
 /*
 Sélecteur: Tous les liens
 Propriétés:
  - Couleur du texte: #457b9d
 */
+a {
+    color: #457b9d;
+}
 
 
-/* CECI EST UN DÉFI! BONNE CHANCE!
-Sélecteur: Tous les liens lors du SURVOL de la souris (nouveau!)
+/*
+Sélecteur: Tous les liens lors du survol de la souris (nouveau!)
 Propriétés:
  - Couleur du texte: #1d3557
 
 ## Le résultat devrait être un changement de couleur lorsqu'on survol un lien avec la souris ##
 ## Le sélecteur devrait ressembler à nombalise:quelquechose {
 */
-
+a:hover {
+    color: #1d3557;
+}
 
 /*
-Sélecteur: Pour les images de la galerie d'images
+Sélecteur: Les images de la galerie d'image
 Propriétés:
  - hauteur de 100 pixels
 
-## Il faudra probablement ajouter la MÊME classe sur chaque image (elles seront miniatures en comparaison avec l'image du bateau) ##
+## Il faudra probablement ajouter la même classe sur chaque image ##
 */
+img.miniature {
+    height: 100px;
+}
 
-
-/* CECI EST UN DÉFI! BONNE CHANCE!
-Sélecteur: Pour les images de la section "galerie d'images" / lors du SURVOL de la souris sur les images (nouveau!)
-
-Propriétés fournies :
+/*
+Sélecteur: Les images de la galerie d'image lors du survol de la souris (nouveau!)
+Propriétés:
  - height: 130px;
  - vertical-align: top;
  - transition-property: height;
@@ -87,5 +106,20 @@ Propriétés fournies :
 
 ## Qu'est ce que ça change? Quel est le sens de chacune de ces 3 propriétés? Faites des tests + Google! ##
 */
+img.miniature:hover {
+    height: 130px;
+    vertical-align: top;
+    transition-property: height;
+    transition-duration: 0.2s;
+}
 
+/*
+Sélecteur: Le "texte" du drapeau de pirate dans le titre principal
+Propriétés:
+ - filter: grayscale(1) contrast(1.3);
 
+##  ##
+*/
+span.drapeau {
+    filter: grayscale(1) contrast(1.3);
+}

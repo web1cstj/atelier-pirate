@@ -9,7 +9,7 @@
 ### ÉTAPE 1 – STRUCTURE DE DOSSIERS
 1. Créez la structure de dossiers telle que celle vue en classe (dossiers images et CSS)
 2. Déposez les documents fournis dans leur dossier approprié
-
+![Structure de dossiers](./_assets/structure_fichiers.png)
 	 
 ### ÉTAPE 2 – HTML
 1. Créer un fichier `index.html`
