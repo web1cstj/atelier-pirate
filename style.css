@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', Arial;
+    margin: 0px;
+
+    /* Couleur d'arrière-plan: #1d3557 */
+    
+    
+    /* Couleur du texte: #272727 */
+    
+}
+
+/* ## À titre d'information (ne pas faire) : Ce sélecteur veut dire: header ET main ET footer ## */
+header, main, footer {
+    width: 100%;
+    background-color: #f1faee;
+    padding: 14px;
+    margin: 14px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+}
+
+/*
+Sélecteur: Div ayant la classe interface
+Propriétés:
+ - Largeur de 800px
+ - Marge de gauche avec la valeur: auto
+ - Marge de droite avec la valeur: auto
+
+ ## Information : La marge automatique permet de centrer le contenu ##
+*/
+
+
+/*
+Sélecteur: Titre principal
+Propriétés:
+ - Largeur de 800px
+ - Marge du haut avec une valeur de 20 pixels
+ - Grosseur du texte de 50 pixels
+ - Texte aligné au centre
+ - Couleur d'arrière-plan: #a8dadc;
+*/
+
+
+/*
+Sélecteur: Titre secondaire
+Propriétés:
+ - Bordure du bas: 2px dotted #a8dadc
+*/
+
+
+/*
+Sélecteur: Tous les liens
+Propriétés:
+ - Couleur du texte: #457b9d
+*/
+
+
+/* CECI EST UN DÉFI! BONNE CHANCE!
+Sélecteur: Tous les liens lors du SURVOL de la souris (nouveau!)
+Propriétés:
+ - Couleur du texte: #1d3557
+
+## Le résultat devrait être un changement de couleur lorsqu'on survol un lien avec la souris ##
+## Le sélecteur devrait ressembler à nombalise:quelquechose {
+*/
+
+
+/*
+Sélecteur: Pour les images de la galerie d'images
+Propriétés:
+ - hauteur de 100 pixels
+
+## Il faudra probablement ajouter la MÊME classe sur chaque image (elles seront miniatures en comparaison avec l'image du bateau) ##
+*/
+
+
+/* CECI EST UN DÉFI! BONNE CHANCE!
+Sélecteur: Pour les images de la section "galerie d'images" / lors du SURVOL de la souris sur les images (nouveau!)
+
+Propriétés fournies :
+ - height: 130px;
+ - vertical-align: top;
+ - transition-property: height;
+ - transition-duration: 0.2s;
+
+## Qu'est ce que ça change? Quel est le sens de chacune de ces 3 propriétés? Faites des tests + Google! ##
+*/
+
+
