@@ -1,17 +1,19 @@
-## WEB 1 : STATIQUE
-# ATELIER PIRATE
+## Web 1 : statique
+# Atelier pirate
+
+Télécharger le [dossier ZIP](https://github.com/web1cstj/atelier-pirate/archive/refs/heads/depart.zip) et décompressez-le dans votre espace de travail.
 
 ## Objectifs :
-	- Recréer le visuel fourni dans le sous-dossier `_assets`
+1. Recréer le visuel fourni dans le sous-dossier `_assets`
 
-## CONSIGNES
+## Consignes
 
-### ÉTAPE 1 – STRUCTURE DE DOSSIERS
+### Étape 1 – Structure de dossiers
 1. Créez la structure de dossiers telle que celle vue en classe (dossiers images et CSS)
 2. Déposez les documents fournis dans leur dossier approprié
 ![Structure de dossiers](./_assets/structure_fichiers.png)
 	 
-### ÉTAPE 2 – HTML
+### Étape 2 – HTML
 1. Créer un fichier `index.html`
 2. Intégrer le texte à la fin de ce document dans le `index.html` (à l’intérieur du BODY)
    - Organiser ce texte (séparer les paragraphes, les titres, sous-titres etc.)
@@ -19,26 +21,27 @@
 4. Intégrer les balises de **structure**
    - Ne pas oublier l’**indentation**
 
-### ÉTAPE 3 – CSS – VALIDATION BALISES DE STRUCTURE
+### Étape 3 – CSS – Validation balises de structure
 1. Intégrer le lien vers le document `style_structure.css`
    - Valider le résultat avec l’image `_assets/piraterie_structure.png`
    - Vous n’avez pas de CSS à faire, il est déjà créé pour vous
 
-### ÉTAPE 4 – CSS – CRÉATION CSS
+### ÉTAPE 4 – CSS – Création CSS
 1. Mettre en commentaire, le lien vers `style_structure.css`
 2. Intégrer le lien vers le document `style.css`
 3. `style.css` : Rédiger le CSS en fonction des indices présent dans le fichier
 4. Valider le résultat avec l’image `_assets/piraterie_final.png`
 
-> ### ASTUCE : 
+> ### Astuce : 
 >   - Il faudra mettre en commentaire,
 >   `style.css` pour voir la version structure
 >   - et `style_structure.css` pour voir la version finale
 >   - …
 
 ## Contenu à intégrer dans le HTML
-COPIER LE TEXTE SUIVANT DANS LE FICHIER :  INDEX.HTML
--------------------------------------------------------------
+> COPIER LE TEXTE SUIVANT DANS LE FICHIER :  INDEX.HTML
+
+---
 Piraterie 🏴‍☠️
 
 La piraterie désigne une forme de banditisme pratiquée sur mer par des marins appelés pirates. Cependant, les pirates ne se limitent pas seulement aux pillages de navire, et attaquent parfois de petites villes côtières.
