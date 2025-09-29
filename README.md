@@ -36,11 +36,6 @@
 >   - et `style_structure.css` pour voir la version finale
 >   - …
 
-### ÉTAPE 5 – REMISE
-1. À remettre sur Remise/dossier : `c06_devoir_pirates`
-2. Nommer le projet (suivre modèle) : `nomp1234567_pirates.zip`
-3. Ne remettre que les fichiers et dossiers nécessaires au projet.
-
 ## Contenu à intégrer dans le HTML
 COPIER LE TEXTE SUIVANT DANS LE FICHIER :  INDEX.HTML
 -------------------------------------------------------------
